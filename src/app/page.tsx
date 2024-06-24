@@ -1,7 +1,18 @@
+import {
+  SignIn,
+  SignInButton,
+  SignUp,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
+
 export default function Home() {
   return (
     <>
-    <div className="h-full w-full">Tang</div>
+      <div className="h-full w-full">Tang</div>
+      <SignIn />
+      <SignUp />
     </>
   );
 }
