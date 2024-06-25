@@ -10,7 +10,7 @@ import {
 export default function Home() {
   return (
     <>
-      <div className="h-full w-full">Tang</div>
+      <div className="h-full w-full">Summarist</div>
       <SignIn />
       <SignUp />
     </>
