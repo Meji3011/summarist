@@ -13,6 +13,7 @@ export default function Home() {
       <div className="h-full w-full">Summarist</div>
       <SignIn />
       <SignUp />
+      <SignIn />
     </>
   );
 }
